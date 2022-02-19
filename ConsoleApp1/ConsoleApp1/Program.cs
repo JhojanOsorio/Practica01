@@ -7,7 +7,7 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            int edadd, año;
+            int edad, año;
 
             Console.WriteLine("Ingrese su año de nacimiento");
             año = int.Parse(Console.ReadLine());
@@ -15,7 +15,7 @@ namespace ConsoleApp1
             edad = DateTime.Today.Year - año;
 
 
-            Console.WriteLine("Su edad es: " + edadd);
+            Console.WriteLine("Su edad es: " + edad);
          
 
            
